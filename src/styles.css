@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: lightblue;
+}
+
+#title {
+  text-align: center;
+  color: darkcyan;
+  font-size: 50px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  height: 40px;
+  width: 20%;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.buttons button:focus {
+  outline: 0;
+}
+
+.buttons button:active {
+}
+
+#rock:hover {
+  background-color: gray;
+}
+
+#scissors:hover {
+  background-color: lightcoral;
+}
+
+#paper:hover {
+  background-color: lightgreen;
+}
