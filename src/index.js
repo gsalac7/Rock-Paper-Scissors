@@ -1,5 +1,3 @@
-import "./styles.css";
-
 let computer_score = 0;
 let human_score = 0;
 
