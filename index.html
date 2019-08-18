@@ -2,20 +2,29 @@
 <html>
 	<head>
 		<title>Rock Paper Scissors</title>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" type="text/css" href="src/styles.css">
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="src/styles.css">
+		<script type="text/javascript" src="src/index.js"></script>
 	</head>
 	<body>
-		<script type="text/javascript" src="src/index.js"></script>
 		<div id="app">
 			<h1 id="title">Rock Paper Scissors</h1>
 			<div class="buttons">
-				<button onclick="rock_pressed()" id="rock">Rock</button>
+				<button id="rock">Rock</button>
 				<button id="paper">Paper</button>
 				<button id="scissors">Scissors</button>
 			</div>
-			<div id="view">
+			<div class="Score">
+				<h2 id="human-score">Human: </h2>
+				<p id="hnum">0</p>
+			</div>
+			<div class="Score">
+				<h2 id="computer-score">Computer: </h2>
+				<p id="cnum">0</p>
 			<div>
+			<div class="display">
+				<h2 id="display-results"></h2>
+			</div>
 		</div>
 	</body>
 </html>

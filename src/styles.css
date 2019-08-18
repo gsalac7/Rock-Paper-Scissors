@@ -9,6 +9,9 @@ body {
   font-size: 50px;
 }
 
+h2 {
+  color: orangered;
+}
 .buttons {
   text-align: center;
 }
@@ -26,9 +29,24 @@ body {
   outline: 0;
 }
 
-.buttons button:active {
+.Score h2,
+.Score p {
+  margin: 0px;
+  display: inline-block;
+  padding: 1px;
+  vertical-align: top;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
 }
 
+.display {
+  text-align: center;
+}
+
+#display-results {
+  color: blue;
+}
 #rock:hover {
   background-color: gray;
 }
